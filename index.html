@@ -7,46 +7,90 @@
         <meta name="description" content="早上好精神饱满的个人主页">
         <title>早上好精神饱满的个人主页</title>
         <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border:1px solid #e7e7e7;
+                background-color: #fff9f1;
+            }
+            li {
+                float: left;
+            }
+            li a{
+                display: block;
+                color:#d38240;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active) {
+                background-color: #fff1d8;
+                font-weight: bold;
+                text-shadow: 0px 0px 5px #ffffff;
+            }
+            li a.active {
+                background-color: #fff5d8;
+                font-weight: bold;
+                text-shadow: 0px 0px 5px #ffffff;
+            }
             .title {
-                color: #dca007;
+                color: #ee9056;
                 font-size: 36px;
                 text-align: center;
+                font-family:'微软雅黑','Times New Roman',''
             }
-            .welcome1, .welcome2 {
-                color: #deb05f;
-                font-size: 24px;
-                text-align: center;
+            .welcome2 {
+                color: #f1ad75;
+                font-size: 12px;
+                text-align: left;
+                font-family:'楷体','宋体'， 'Times New Roman',''
+            }
+            .welcome1 {
+                color: #f1ad75;
+                font-size: 12px;
+                text-align: left;
+                font-family:'Times New Roman',''
             }
             hr {
                 margin: 20px 0;
-                text-align: left;
             }
             h3 {
-                color: #f8ba80;
+                color: #fcc799;
                 text-align: center;
+                font-family:'微软雅黑'
             }
             .intro {
-            background-color: rgb(248, 238, 225);
+            background-color: rgb(248, 235, 225);
             padding: 15px 25px;
             border-radius: 10px;}
 
             .intro p {
             margin: 10px 0;
+            font-family:'宋体';
+            text-indent: 2em;
+            }
+            .intro a{
+                color:#edaa70;
+                text-decoration: underline;
+                font-style: italic;
+                font-family:'楷体'
             }
         </style>
     </head>
     <body>
         <ul>
-            <li><a href="个人主页尝试.html">主页</a></li>
-            <li><a href="个人主页尝试2.html">关于我</a></li>
-            <li><a href="个人主页尝试3.html">我的作品</a></li>
+            <li><a href="index.html">主页</a></li>
+            <li><a href="hobbies_displaying.html">我的属性</a></li>
+            <li><a href="pictures_displaying.html">我的作品</a></li>
         </ul>
     </body>
     <body style="background-color: #ffffff;">
-        <h1 class="title">GOOD MORNING!</h1><h2 class="welcome2"><i>WISH YOU HAVE A NICE DAY!</i></h2>
-        <h2 class="welcome1" ><i>欢迎您来到<b>早上好精神饱满</b>的个人主页！</i></h2>
+        <h1 class="title"></h1><h2 class="welcome2"><i>Good morning! <br> Wish you have a nice day!</i></h2>
+        <h2 class="welcome1" ><i>欢迎您来到早上好精神饱满的个人主页！</i></h2>
         <hr>
-        <h3 style="font-family:'Times New Roman'">想要了解早上好精神饱满？</h3>
+        <h3>想要了解早上好精神饱满？</h3>
         <div class="intro">
             <p style="background-color: rgb(248, 238, 225);">你好，我是早上好精神饱满！
             目前就读于北京大学元培学院，是一名准大二本科生，在通用人工智能方向学习。
